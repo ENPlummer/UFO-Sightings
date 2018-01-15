@@ -30,7 +30,7 @@ function renderTable () {
 
 function handleSearchButtonClick(event){
 	event.preventDefault()
-	var filterDate_Time = $date_TimeInput.value.trim().getTime();
+	//var filterDate_Time = $date_TimeInput.value.trim().getTime();
 	var filterCity = $cityInput.value.trim().toLowerCase();
 	var filterState = $stateInput.value.trim().toLowerCase();
 	var filterCountry = $countryInput.value.trim().toLowerCase();
